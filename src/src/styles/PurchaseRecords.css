@@ -1,0 +1,89 @@
+.records {
+  text-align: left;
+}
+
+.records-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.records-meta {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.meta {
+  color: #6b7280;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.meta.warn {
+  color: #92400e;
+}
+
+.records-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.record {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 0.9rem;
+  background: #ffffff;
+}
+
+.record-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.record-title {
+  font-size: 1rem;
+  font-weight: 900;
+  color: #111827;
+}
+
+.record-subtitle {
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-weight: 600;
+  margin-top: 0.15rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.kv {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.k {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6b7280;
+  font-weight: 800;
+}
+
+.v {
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  word-break: break-all;
+}
+
